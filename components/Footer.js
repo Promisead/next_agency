@@ -1,5 +1,6 @@
 import style from '../styles/Footer.module.css';
 import Image from 'next/image';
+
 import Link from 'next/link';
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
           <Link href="/contact" className={style.link} passHref>
             <>
               <span className={style.linkText}>WORK WITH US</span>
-              <Image
+              <img
                 src={process.env.NEXT_PUBLIC_URL + '/img/link.png'}
                 width="40px"
                 height="40px"
