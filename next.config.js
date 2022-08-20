@@ -1,7 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  images: {
+    domains: ['localhost', 'images.pexels.com'],
+    loader: 'imgix',
+    path: '',
+  },
   swcMinify: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
+
+/* module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['localhost', 'images.pexels.com'],
+    loader: 'imgix',
+    path: '',
+  },
+};
+ */
