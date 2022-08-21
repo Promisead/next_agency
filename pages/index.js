@@ -10,7 +10,7 @@ export default function Home({ services }) {
   return (
     <div>
       <Head>
-        <title>Chapions Digital Product Agency</title>
+        <title>Champions Digital Product Agency</title>
         <meta
           name="description"
           content="Web Design, App Development, Content Creation Agency Near Europe"
