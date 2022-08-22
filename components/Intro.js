@@ -21,7 +21,14 @@ const Intro = () => {
         <button className={style.button}>DISCOVER</button>
       </div>
       <div className={style.card}>
-        <img src="/img/Avocado.png" layout="fill" objectFit="cover" alt="" />
+        <img
+          src="/img/Avocado.png"
+          width="100%"
+          height="100%"
+          layout="fill"
+          objectFit="cover"
+          alt=""
+        />
       </div>
     </div>
   );
